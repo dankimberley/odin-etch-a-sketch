@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slidecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 64vh;
+    min-width: 64vh;
+    max-height: 800px;
+}
+
+.sub-div {
+    background-color: aqua;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.5px;
+    /* width: 4vh; */
+    aspect-ratio: 1/1;
+}
+
+.hovered {
+    background-color: pink;
+}
